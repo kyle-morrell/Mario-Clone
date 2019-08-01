@@ -1,15 +1,15 @@
 ﻿<Properties StartupConfiguration="{7257B17B-F6B0-5A16-4330-CA5C56772F85}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Movement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CameraFollow.cs">
     <Files>
-      <File FileName="Assets/Movement.cs" Line="1" Column="1" />
-      <File FileName="../../../../../Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.2d.tilemap/Editor/GridBrush.cs" Line="1" Column="1" />
+      <File FileName="Assets/Movement.cs" Line="38" Column="1" />
+      <File FileName="Assets/CameraFollow.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Mario" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Movement.cs" selected="True" />
+              <Node name="CameraFollow.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -18,7 +18,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e78c1fdd-7c76-408b-9a4d-1d1f983df3a9" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4f8ebd48-d479-4b97-aa8f-8ad2b6da8f82" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
