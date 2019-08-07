@@ -15,7 +15,6 @@ public class CameraFollow : MonoBehaviour
     void Update()
     {
 
-        transform.position = new Vector3(mario.position.x, 0, -25);
-
+        transform.position = new Vector3(mario.position.x, transform.position.y, transform.position.z);
     }
 }
