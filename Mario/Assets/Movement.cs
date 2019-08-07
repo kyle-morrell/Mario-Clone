@@ -4,34 +4,47 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    private float speed = 5f;
+    private float speed = 0;
     public Sprite leftSprite;
     public Sprite rightSprite;
     public SpriteRenderer sr;
     public Rigidbody rb;
+    private Animator anim;
+
     // Start is called before the first frame update
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody>();
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        speed = Input.GetAxis("Horizontal") * 15f;
+        transform.position += new Vector3(speed * Time.deltaTime, 0, 0);
         if (Input.GetKey(KeyCode.D))
         {
-            transform.position += new Vector3(speed * Time.deltaTime, 0, 0);
-            sr.sprite = rightSprite;
+            anim.enabled = true;
+            anim.SetInteger("Direction", 2);
         }
-        if (Input.GetKey(KeyCode.A))
+        else if (Input.GetKey(KeyCode.A))
         {
-            transform.position += new Vector3(-speed * Time.deltaTime, 0, 0);
-            sr.sprite = leftSprite;
+            anim.enabled = true;
+            anim.SetInteger("Direction", 1);
         }
-        if (Input.GetKey(KeyCode.W))
+        else
         {
-            rb.velocity += Vector3.up * 1f;
+            anim.enabled = false;
+            if (anim.GetInteger("Direction") == 1)
+            {
+                sr.sprite = leftSprite;
+            }
+            else if (anim.GetInteger("Direction") == 2)
+            {
+                sr.sprite = rightSprite;
+            }
         }
     }
 }
