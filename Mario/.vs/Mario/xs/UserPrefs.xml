@@ -1,15 +1,15 @@
 ﻿<Properties StartupConfiguration="{7257B17B-F6B0-5A16-4330-CA5C56772F85}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Movement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CameraFollow.cs">
     <Files>
       <File FileName="Assets/Movement.cs" Line="46" Column="1" />
-      <File FileName="Assets/CameraFollow.cs" />
+      <File FileName="Assets/CameraFollow.cs" Line="21" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Mario" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Movement.cs" selected="True" />
+              <Node name="CameraFollow.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -18,7 +18,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8815d433-a365-4887-86fc-019c1ac29ddc" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="04670448-889f-43bd-b17d-46a308d77b2b" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
